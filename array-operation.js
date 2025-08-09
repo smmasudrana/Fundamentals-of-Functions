@@ -5,18 +5,18 @@
 // * step-4: pas the parameter(s), check whether parameter is passed in a proper format
 // *step-5: do the function task (step by step)
 
-// function sumOfNumbers(numbers){
-//     let jogfol=0;
-//     for(const number of numbers){
-//         console.log(number);
-//         jogfol =jogfol + number;
-//     }
-//     return jogfol;
-// }
+function sumOfNumbers(numbers){
+    let jogfol=0;
+    for(const number of numbers){
+        console.log(number);
+        jogfol =jogfol + number;
+    }
+    return jogfol;
+}
 
-// const numbs = [12, 52, 98, 96]
-// const sum =sumOfNumbers(numbs);
-// console.log('sum of numbers', sum);
+const numbs = [12, 52, 98, 96]
+const sum =sumOfNumbers(numbs);
+console.log('sum of numbers', sum);
 
 //---------------------------------------
 
